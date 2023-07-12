@@ -1,0 +1,31 @@
+h1 {
+  text-align: center;
+}
+
+.gridContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 960px;
+  height: 960px;
+  margin: auto;
+}
+
+.js-gridDiv {
+  background-color: black;
+  border: 1px solid white;
+  flex: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.js-row {
+  display: flex;
+  width: 100%;
+  flex: 1;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
